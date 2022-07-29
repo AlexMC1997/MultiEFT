@@ -1,4 +1,4 @@
-#include "EFTFloat.h"
+#include "./include/EFTFloat.h"
 #include <math.h>
 #include <string.h>
 #include <stdio.h>

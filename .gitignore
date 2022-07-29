@@ -1,1 +1,6 @@
 .vscode/settings.json
+.vscode/configurationCache.log
+.gitignore
+.vscode/targets.log
+.vscode/dryrun.log
+.gitignore
