@@ -1,0 +1,1 @@
+Arithmetic and some tests implemented, needs more testing. Implementation uses a lot of value passing which could be optimized.

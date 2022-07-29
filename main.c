@@ -3,6 +3,7 @@
 
 void test1()
 {
+    puts("Test 1");
     double a = 3.0;
     shadow_init(&a);
     double b = 0.00000000000000003;
@@ -16,6 +17,7 @@ void test1()
 
 void test2()
 {
+    puts("Test 2");
     double a = 3.0;
     shadow_init(&a);
     double b = 0.00000000000000003;
@@ -34,6 +36,7 @@ void test2()
 
 void test3()
 {
+    puts("Test 3");
     double a = 3.0;
     shadow_init(&a);
     double b = 0.00000000000000003;
@@ -57,23 +60,24 @@ void test3()
 
 void test4()
 {
-   double a0 = 3.0;
-   shadow_init(&a0);
-   double a1 = 3.0;
-   shadow_init(&a1);
-   double a2 = 0;
-   shadow_init(&a2);
-   double a3 = 0;
-   shadow_init(&a3);
-   double a4 = 0;
-   shadow_init(&a4);
-   double a5 = 0;
-   shadow_init(&a5);
-   shadow_prod(&a0, &a1, &a2);
-   shadow_prod(&a2, &a1, &a3);
-   shadow_prod(&a3, &a1, &a4);
-   shadow_prod(&a4, &a1, &a5);
-   shadow_print(&a5);
+    puts("Test 4");
+    double a0 = 3.0;
+    shadow_init(&a0);
+    double a1 = 3.0;
+    shadow_init(&a1);
+    double a2 = 0;
+    shadow_init(&a2);
+    double a3 = 0;
+    shadow_init(&a3);
+    double a4 = 0;
+    shadow_init(&a4);
+    double a5 = 0;
+    shadow_init(&a5);
+    shadow_prod(&a0, &a1, &a2);
+    shadow_prod(&a2, &a1, &a3);
+    shadow_prod(&a3, &a1, &a4);
+    shadow_prod(&a4, &a1, &a5);
+    shadow_print(&a5);
 }
 
 int main(int argc, char* argv[])

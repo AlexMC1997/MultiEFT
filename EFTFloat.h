@@ -18,9 +18,7 @@ typedef struct EFTErr {
 } EFTErr;
 
 typedef struct EFTFloat {
-    bool valid;
     EFTErr err;
-    size_t elen;
     double val;
     double* op1;
     double* op2;

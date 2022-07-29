@@ -27,6 +27,7 @@ FPair two_f_mul(double a, double b)
     return res;
 }
 
+//Needs testing
 void err_compress(double* err, size_t prec)
 {
     FPair Q;
